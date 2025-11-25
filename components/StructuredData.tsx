@@ -2,25 +2,26 @@ export default function StructuredData() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    "name": "Eskeen Clinic",
-    "alternateName": "Eskeen Clinic London",
-    "url": "https://co2london.com",
+    "name": "Rachael Katie Cosmetics",
+    "alternateName": "RK Skincare Southampton",
+    "url": "https://co2lasersouthampton.co.uk",
     "sameAs": [
-      "https://co2london.com"
+      "https://co2lasersouthampton.co.uk",
+      "https://rachaelkatiecosmetics.co.uk"
     ],
-    "logo": "https://co2london.com/images/logo.png",
-    "image": "https://co2london.com/images/co2laser-skin-rejeuvenation.jpeg",
-    "description": "Expert CO2 laser treatment clinic in London led by Elanda RN and Prescriber Mavra, specializing in acne scar treatment, wrinkle reduction, skin texture improvement, and anti-aging treatments.",
+    "logo": "https://co2lasersouthampton.co.uk/images/RK-Skincare-logo-metallic-stack-squashed.png",
+    "image": "https://co2lasersouthampton.co.uk/images/Rachael-1.jpg",
+    "description": "Expert CO2 laser treatment clinic in Southampton led by Rachael Katie RN, specializing in acne scar treatment, wrinkle reduction, skin texture improvement, and anti-aging treatments with over 20 years of experience.",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "London",
-      "addressRegion": "Greater London",
+      "addressLocality": "Southampton",
+      "addressRegion": "Hampshire",
       "addressCountry": "GB"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "51.5074",
-      "longitude": "-0.1278"
+      "latitude": "50.9097",
+      "longitude": "-1.4044"
     },
     "telephone": "+44 7846888649",
     "priceRange": "£££",
@@ -101,17 +102,17 @@ export default function StructuredData() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Eskeen Clinic CO2 Laser",
-    "alternateName": "CO2 Laser London",
-    "url": "https://co2london.com",
-    "description": "Expert CO2 laser treatment for acne scars, wrinkles, skin texture & pigmentation in London by Elanda RN",
+    "name": "Rachael Katie Cosmetics CO2 Laser Southampton",
+    "alternateName": "CO2 Laser Southampton",
+    "url": "https://co2lasersouthampton.co.uk",
+    "description": "Expert CO2 laser treatment for acne scars, wrinkles, skin texture & pigmentation in Southampton by Rachael Katie RN - over 20 years experience",
     "publisher": {
       "@type": "Organization",
-      "name": "Eskeen Clinic"
+      "name": "Rachael Katie Cosmetics"
     },
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://co2london.com/?s={search_term_string}",
+      "target": "https://co2lasersouthampton.co.uk/?s={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   }
@@ -119,10 +120,10 @@ export default function StructuredData() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalClinic",
-    "name": "Eskeen Clinic",
-    "alternateName": "CO2 Laser London",
-    "image": "https://co2london.com/images/clinic/inside1.webp",
-    "description": "Expert CO2 laser treatment clinic in Putney, London. Specializing in acne scar treatment, wrinkle reduction, skin resurfacing, and pigmentation removal with our highly qualified medical team.",
+    "name": "Rachael Katie Cosmetics",
+    "alternateName": "RK Skincare Southampton",
+    "image": "https://co2lasersouthampton.co.uk/images/clinic/inside1.webp",
+    "description": "Expert CO2 laser treatment clinic in Southampton. Specializing in acne scar treatment, wrinkle reduction, skin resurfacing, and pigmentation removal with Rachael Katie RN - over 20 years experience.",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "63 London Rd",
@@ -136,9 +137,9 @@ export default function StructuredData() {
       "latitude": "50.9097",
       "longitude": "-1.4044"
     },
-    "url": "https://co2london.com",
+    "url": "https://co2lasersouthampton.co.uk",
     "telephone": "+447846888649",
-    "email": "info@eskeen.co.uk",
+    "email": "info@rachaelkatiecosmetics.co.uk",
     "priceRange": "££-£££",
     "openingHoursSpecification": [
       {
@@ -159,27 +160,27 @@ export default function StructuredData() {
     "areaServed": [
       {
         "@type": "City",
-        "name": "London"
+        "name": "Southampton"
       },
       {
         "@type": "City",
-        "name": "Putney"
+        "name": "Portsmouth"
       },
       {
         "@type": "City",
-        "name": "Wimbledon"
+        "name": "Winchester"
       },
       {
         "@type": "City",
-        "name": "Richmond"
+        "name": "Eastleigh"
       },
       {
         "@type": "City",
-        "name": "Chelsea"
+        "name": "Fareham"
       },
       {
         "@type": "City",
-        "name": "Fulham"
+        "name": "Hampshire"
       }
     ],
     "hasMap": "https://maps.google.com/?q=63+London+Rd,+Southampton,+Hampshire+SO15+2AB",
@@ -193,11 +194,11 @@ export default function StructuredData() {
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "CO2 Laser Treatment London",
-    "description": "Expert fractional CO2 laser treatment for acne scars, wrinkles, skin texture, and pigmentation led by Prescriber Mavra",
+    "name": "CO2 Laser Treatment Southampton",
+    "description": "Expert fractional CO2 laser treatment for acne scars, wrinkles, skin texture, and pigmentation led by Rachael Katie RN with over 20 years experience",
     "provider": {
       "@type": "MedicalBusiness",
-      "name": "Eskeen Clinic",
+      "name": "Rachael Katie Cosmetics",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "63 London Rd",
@@ -209,22 +210,22 @@ export default function StructuredData() {
       "telephone": "+447846888649"
     },
     "areaServed": [
-      "London",
-      "Putney",
-      "Wimbledon",
-      "Richmond",
-      "Westminster",
-      "Camden",
-      "Islington",
-      "Kensington",
-      "Chelsea",
-      "Fulham",
-      "Hammersmith",
-      "Greater London"
+      "Southampton",
+      "Portsmouth",
+      "Winchester",
+      "Eastleigh",
+      "Fareham",
+      "Romsey",
+      "Totton",
+      "Chandlers Ford",
+      "Bitterne",
+      "Shirley",
+      "Portswood",
+      "Hampshire"
     ],
     "availableChannel": {
       "@type": "ServiceChannel",
-      "serviceUrl": "https://co2london.com",
+      "serviceUrl": "https://co2lasersouthampton.co.uk",
       "serviceSmsNumber": "+447846888649"
     },
     "category": "Medical Treatment",
@@ -259,7 +260,7 @@ export default function StructuredData() {
   const reviewSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    "name": "Eskeen Clinic",
+    "name": "Rachael Katie Cosmetics",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5.0",
@@ -355,6 +356,120 @@ export default function StructuredData() {
     ]
   }
 
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Rachael Katie",
+    "jobTitle": "Aesthetic Nurse Specialist & Founder",
+    "image": "https://co2lasersouthampton.co.uk/images/Rachael-1.jpg",
+    "description": "Rachael Katie is an award-winning aesthetic nurse specialist with over 20 years of experience in advanced cosmetic treatments. As the founder of RK Skincare, she specializes in CO2 laser treatments, offering expert care for acne scarring, skin rejuvenation, and anti-aging procedures.",
+    "url": "https://co2lasersouthampton.co.uk",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Rachael Katie Cosmetics"
+    },
+    "knowsAbout": [
+      "CO2 Laser Treatment",
+      "Aesthetic Medicine",
+      "Skin Resurfacing",
+      "Acne Scar Treatment",
+      "Anti-Aging Treatments",
+      "Dermatology"
+    ],
+    "alumniOf": "Registered Nurse",
+    "hasCredential": "Registered Nurse (RN)",
+    "sameAs": [
+      "https://co2lasersouthampton.co.uk",
+      "https://rachaelkatiecosmetics.co.uk"
+    ]
+  }
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is CO2 laser treatment?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CO2 laser treatment is an advanced skin resurfacing procedure that uses fractional carbon dioxide laser technology to improve skin texture, reduce wrinkles, treat acne scars, and address various skin concerns. The laser creates controlled micro-injuries in the skin, stimulating collagen production and natural healing for dramatic results."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many CO2 laser sessions do I need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most patients achieve optimal results with 3 sessions of CO2 laser treatment, spaced 4-6 weeks apart. However, the exact number of sessions needed varies depending on your specific skin concerns and treatment goals. During your free consultation, we'll create a personalized treatment plan tailored to your needs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the downtime after CO2 laser treatment?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Downtime typically ranges from 5-7 days for fractional CO2 laser treatment. You can expect redness, swelling, and some peeling as your skin heals. Most patients can return to normal activities within a week, though complete healing and optimal results develop over several months as collagen remodeling occurs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does CO2 laser treatment hurt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We apply a topical numbing cream before treatment to minimize discomfort. Most patients describe the sensation as tolerable, similar to a warm prickling feeling. Post-treatment, the area may feel sunburned for a few days. We provide comprehensive aftercare instructions to ensure your comfort throughout the healing process."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does CO2 laser treatment cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A single CO2 laser session costs £395. We offer a 3-session package for £850, saving you £335. PRP enhancement can be added for £100 per session. We also accept Clearpay for flexible payment options. Book a free consultation to discuss your specific needs and receive a personalized quote."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What can CO2 laser treat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CO2 laser treatment effectively addresses acne scars, wrinkles and fine lines, sun damage, age spots, uneven skin texture, stretch marks, enlarged pores, and pigmentation issues. It's the gold standard for skin resurfacing and can achieve 70-80% reduction in acne scarring with proper treatment."
+        }
+      }
+    ]
+  }
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://co2lasersouthampton.co.uk"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "CO2 Laser Treatment",
+        "item": "https://co2lasersouthampton.co.uk#treatments"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Results",
+        "item": "https://co2lasersouthampton.co.uk#results"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Contact",
+        "item": "https://co2lasersouthampton.co.uk#contact"
+      }
+    ]
+  }
+
   return (
     <>
       <script
@@ -376,6 +491,18 @@ export default function StructuredData() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
     </>
   )
