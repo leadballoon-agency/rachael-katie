@@ -161,12 +161,11 @@ export default function ResultsGallery({ onBookingClick }: ResultsGalleryProps) 
         </div>
 
         {/* Stats Section - Mobile Optimized */}
-        <div className="mt-10 sm:mt-12 lg:mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+        <div className="mt-10 sm:mt-12 lg:mt-16 grid grid-cols-3 gap-4 sm:gap-6">
           {[
-            { number: '20+', label: 'Years Experience' },
-            { number: 'RN', label: 'Nurse-Led' },
+            { number: '12+', label: 'Years Experience' },
             { number: '£395', label: 'Starting From' },
-            { number: '5', label: 'Expert Practitioners' }
+            { number: '100s', label: 'Happy Clients' }
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <p className="text-2xl sm:text-3xl font-bold gradient-text mb-1 sm:mb-2">{stat.number}</p>

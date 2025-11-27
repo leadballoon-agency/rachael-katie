@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import AnimatedCounter from './AnimatedCounter'
 
 interface Review {
   name: string
@@ -83,7 +83,7 @@ export default function Reviews() {
               ))}
             </div>
             <p className="text-2xl sm:text-3xl font-bold text-neutral-900">5.0</p>
-            <p className="text-sm sm:text-base text-neutral-600 mt-1">Based on 1,257+ Google reviews</p>
+            <p className="text-sm sm:text-base text-neutral-600 mt-1">Based on <AnimatedCounter target={1257} suffix="+" /> Google reviews</p>
           </div>
         </div>
 

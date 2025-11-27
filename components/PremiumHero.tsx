@@ -1,3 +1,7 @@
+'use client'
+
+import AnimatedCounter from './AnimatedCounter'
+
 interface PremiumHeroProps {
   onBookingClick?: () => void
   onVideoClick?: () => void
@@ -35,7 +39,7 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
             </h1>
 
             <p className="text-sm sm:text-lg md:text-xl text-neutral-600 leading-relaxed max-w-xl mx-auto lg:mx-0 px-2 sm:px-0">
-              The gold standard treatment for acne scars, wrinkles, and skin texture. Expert care by Rachael Katie at Rachael Katie Cosmetics, London.
+              The gold standard treatment for acne scars, wrinkles, and skin texture. Expert care by Rachael Katie at Rachael Katie Cosmetics, Southampton.
             </p>
 
             {/* CTA Buttons */}
@@ -75,7 +79,7 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
                 <p className="text-xs text-neutral-600 whitespace-nowrap">Google Rating</p>
               </div>
               <div className="text-center">
-                <p className="text-xl sm:text-2xl font-bold text-primary-600">1,257+</p>
+                <p className="text-xl sm:text-2xl font-bold text-primary-600"><AnimatedCounter target={1257} suffix="+" /></p>
                 <p className="text-xs text-neutral-600 whitespace-nowrap">Reviews</p>
               </div>
             </div>
@@ -142,7 +146,7 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
                     <div className="flex justify-center items-center space-x-2 text-primary-600">
                       <span className="font-medium">5.0★ Google Rating</span>
                       <span className="text-primary-300">•</span>
-                      <span className="font-medium">Rachael Katie - 1,257+ Reviews</span>
+                      <span className="font-medium">Rachael Katie - <AnimatedCounter target={1257} suffix="+" /> Reviews</span>
                     </div>
                   </div>
                 </div>

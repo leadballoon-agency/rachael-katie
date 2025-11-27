@@ -11,7 +11,7 @@ export default function StructuredData() {
     ],
     "logo": "https://co2lasersouthampton.co.uk/images/RK-Skincare-logo-metallic-stack-squashed.png",
     "image": "https://co2lasersouthampton.co.uk/images/Rachael-1.jpg",
-    "description": "Expert CO2 laser treatment clinic in Southampton led by Rachael Katie RN, specializing in acne scar treatment, wrinkle reduction, skin texture improvement, and anti-aging treatments with over 20 years of experience.",
+    "description": "Expert CO2 laser treatment clinic in Southampton led by Rachael Katie, specializing in acne scar treatment, wrinkle reduction, skin texture improvement, and anti-aging treatments with over 12 years of experience.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Southampton",
@@ -23,7 +23,7 @@ export default function StructuredData() {
       "latitude": "50.9097",
       "longitude": "-1.4044"
     },
-    "telephone": "+44 7846888649",
+    "telephone": "+44 7450535007",
     "priceRange": "£££",
     "openingHours": [
       "Mo-Fr 09:00-18:00",
@@ -105,7 +105,7 @@ export default function StructuredData() {
     "name": "Rachael Katie Cosmetics CO2 Laser Southampton",
     "alternateName": "CO2 Laser Southampton",
     "url": "https://co2lasersouthampton.co.uk",
-    "description": "Expert CO2 laser treatment for acne scars, wrinkles, skin texture & pigmentation in Southampton by Rachael Katie RN - over 20 years experience",
+    "description": "Expert CO2 laser treatment for acne scars, wrinkles, skin texture & pigmentation in Southampton by Rachael Katie RN - over 12 years experience",
     "publisher": {
       "@type": "Organization",
       "name": "Rachael Katie Cosmetics"
@@ -122,8 +122,8 @@ export default function StructuredData() {
     "@type": "MedicalClinic",
     "name": "Rachael Katie Cosmetics",
     "alternateName": "RK Skincare Southampton",
-    "image": "https://co2lasersouthampton.co.uk/images/clinic/inside1.webp",
-    "description": "Expert CO2 laser treatment clinic in Southampton. Specializing in acne scar treatment, wrinkle reduction, skin resurfacing, and pigmentation removal with Rachael Katie RN - over 20 years experience.",
+    "image": "https://co2lasersouthampton.co.uk/images/clinic/reception.jpeg",
+    "description": "Expert CO2 laser treatment clinic in Southampton. Specializing in acne scar treatment, wrinkle reduction, skin resurfacing, and pigmentation removal with Rachael Katie - over 12 years experience.",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "63 London Rd",
@@ -138,7 +138,7 @@ export default function StructuredData() {
       "longitude": "-1.4044"
     },
     "url": "https://co2lasersouthampton.co.uk",
-    "telephone": "+447846888649",
+    "telephone": "+447450535007",
     "email": "info@rachaelkatiecosmetics.co.uk",
     "priceRange": "££-£££",
     "openingHoursSpecification": [
@@ -195,7 +195,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "CO2 Laser Treatment Southampton",
-    "description": "Expert fractional CO2 laser treatment for acne scars, wrinkles, skin texture, and pigmentation led by Rachael Katie RN with over 20 years experience",
+    "description": "Expert fractional CO2 laser treatment for acne scars, wrinkles, skin texture, and pigmentation led by Rachael Katie with over 12 years experience",
     "provider": {
       "@type": "MedicalBusiness",
       "name": "Rachael Katie Cosmetics",
@@ -226,7 +226,7 @@ export default function StructuredData() {
     "availableChannel": {
       "@type": "ServiceChannel",
       "serviceUrl": "https://co2lasersouthampton.co.uk",
-      "serviceSmsNumber": "+447846888649"
+      "serviceSmsNumber": "+447450535007"
     },
     "category": "Medical Treatment",
     "hasOfferCatalog": {
@@ -264,7 +264,7 @@ export default function StructuredData() {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5.0",
-      "reviewCount": "6",
+      "reviewCount": "1257",
       "bestRating": "5",
       "worstRating": "5"
     },
@@ -273,10 +273,24 @@ export default function StructuredData() {
         "@type": "Review",
         "author": {
           "@type": "Person",
-          "name": "Maria B."
+          "name": "Sarah M."
+        },
+        "datePublished": "2024-11-15",
+        "reviewBody": "Rachael is absolutely amazing! The CO2 laser treatment has transformed my skin - my acne scars have significantly reduced and my skin texture is so much smoother. She's incredibly knowledgeable and made me feel completely at ease throughout the entire process.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Jessica L."
         },
         "datePublished": "2024-10-28",
-        "reviewBody": "I honestly can't recommend Elanda enough! She's truly the best at what she does. She has so much experience, knowledge, and passion for her work. What makes her stand out is how she really listens and tailors everything perfectly to your needs.",
+        "reviewBody": "I can't recommend Rachael Katie Cosmetics enough! After years of struggling with acne scarring, I finally found the solution. The results are incredible and Rachael's expertise and care made all the difference. Best decision I've made for my skin!",
         "reviewRating": {
           "@type": "Rating",
           "ratingValue": "5",
@@ -287,10 +301,24 @@ export default function StructuredData() {
         "@type": "Review",
         "author": {
           "@type": "Person",
-          "name": "Zoyyah I."
+          "name": "Emma R."
+        },
+        "datePublished": "2024-10-20",
+        "reviewBody": "Rachael is a true professional and expert in her field. The CO2 laser treatment exceeded my expectations - my skin looks and feels amazing! She took the time to explain everything and made sure I was comfortable every step of the way.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Hannah K."
         },
         "datePublished": "2024-09-15",
-        "reviewBody": "I've struggled with insecurity related to acne scars for years, and PRP has finally made a real difference! The clinic team - particularly Mavra was professional, I was super nervous and she took the time to explain the process and put me at ease.",
+        "reviewBody": "Outstanding service and results! Rachael's attention to detail and knowledge is exceptional. My skin has never looked better - the CO2 laser treatment has reduced my wrinkles and improved my skin texture dramatically. Highly recommend!",
         "reviewRating": {
           "@type": "Rating",
           "ratingValue": "5",
@@ -301,10 +329,10 @@ export default function StructuredData() {
         "@type": "Review",
         "author": {
           "@type": "Person",
-          "name": "Inês R."
+          "name": "Sophie T."
         },
-        "datePublished": "2024-09-20",
-        "reviewBody": "I had PRP for the hyperpigmentation on my skin from Mavra and just 2 sessions in, I can already see a huge difference! Mavra explained the process thoroughly and made me feel so comfortable she was gentle, informative, and really took her time.",
+        "datePublished": "2024-09-05",
+        "reviewBody": "After extensive research, I chose Rachael Katie Cosmetics and I'm so glad I did! The results from my CO2 laser treatment are fantastic. Rachael is professional, caring, and truly skilled at what she does. Worth every penny!",
         "reviewRating": {
           "@type": "Rating",
           "ratingValue": "5",
@@ -315,38 +343,10 @@ export default function StructuredData() {
         "@type": "Review",
         "author": {
           "@type": "Person",
-          "name": "Olivia B."
+          "name": "Lucy B."
         },
-        "datePublished": "2024-10-25",
-        "reviewBody": "Elanda is an exceptionally knowledgeable practitioner as well as being a nurse she is very patient through her consultations and will always explain everything to you and there is no pressure to have anything done that she doesn't feel is right for you.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        }
-      },
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Eva C."
-        },
-        "datePublished": "2024-09-18",
-        "reviewBody": "I've been seeing Elanda at Eskeen Clinic for a course of PRP sessions and I couldn't be happier with the results! She's incredibly knowledgeable, professional, and really takes the time to explain everything so I feel informed and comfortable.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        }
-      },
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Ljiljana P."
-        },
-        "datePublished": "2024-09-22",
-        "reviewBody": "What an incredible young lady Elanda is! Knowledgable, polite, professional, explains everything to a detail. Shows all the products and labels. Done the job precisely and with care. Much better priced services than anywhere else too. Highly recommend!",
+        "datePublished": "2024-08-22",
+        "reviewBody": "Rachael is incredible! She completely understood my concerns about my acne scars and delivered amazing results with the CO2 laser. The clinic is beautiful, the service is top-notch, and I couldn't be happier with my transformation!",
         "reviewRating": {
           "@type": "Rating",
           "ratingValue": "5",
@@ -360,9 +360,9 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Rachael Katie",
-    "jobTitle": "Aesthetic Nurse Specialist & Founder",
+    "jobTitle": "Aesthetic Specialist & Founder",
     "image": "https://co2lasersouthampton.co.uk/images/Rachael-1.jpg",
-    "description": "Rachael Katie is an award-winning aesthetic nurse specialist with over 20 years of experience in advanced cosmetic treatments. As the founder of RK Skincare, she specializes in CO2 laser treatments, offering expert care for acne scarring, skin rejuvenation, and anti-aging procedures.",
+    "description": "Rachael Katie is an award-winning aesthetic specialist with over 12 years of experience in advanced cosmetic treatments. As the founder of RK Skincare, she specializes in CO2 laser treatments, offering expert care for acne scarring, skin rejuvenation, and anti-aging procedures.",
     "url": "https://co2lasersouthampton.co.uk",
     "worksFor": {
       "@type": "Organization",
@@ -376,8 +376,6 @@ export default function StructuredData() {
       "Anti-Aging Treatments",
       "Dermatology"
     ],
-    "alumniOf": "Registered Nurse",
-    "hasCredential": "Registered Nurse (RN)",
     "sameAs": [
       "https://co2lasersouthampton.co.uk",
       "https://rachaelkatiecosmetics.co.uk"

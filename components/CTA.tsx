@@ -27,8 +27,8 @@ export default function CTA() {
           <div className="bg-white/10 backdrop-blur rounded-2xl p-6">
             <div className="text-3xl mb-3">📞</div>
             <h3 className="font-semibold text-lg mb-2">Call Us</h3>
-            <a href="tel:+447846888649" className="text-white/90 hover:text-white">
-              +44 7846 888649
+            <a href="tel:+447450535007" className="text-white/90 hover:text-white">
+              +44 7450 535007
             </a>
           </div>
           
@@ -44,7 +44,7 @@ export default function CTA() {
             <div className="text-3xl mb-3">📍</div>
             <h3 className="font-semibold text-lg mb-2">Visit</h3>
             <p className="text-white/90 text-sm">
-              115 Lower Richmond Rd.<br />Putney, London SW15 1EX<br />United Kingdom
+              63 London Rd.<br />Southampton, Hampshire SO15 2AB<br />United Kingdom
             </p>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function CTA() {
           <div className="w-px h-12 bg-white/30"></div>
           
           <div className="text-center">
-            <p className="text-2xl font-bold mb-1">10+</p>
+            <p className="text-2xl font-bold mb-1">12+</p>
             <p className="text-sm text-white/80">Years Experience</p>
           </div>
         </div>

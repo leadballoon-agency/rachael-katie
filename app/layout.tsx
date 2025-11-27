@@ -8,9 +8,9 @@ import ConvertBox from '@/components/ConvertBox'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'CO2 Laser Treatment London - Expert Skin Resurfacing | Rachael Katie Cosmetics',
-  description: 'Transform your skin with CO2 laser treatment at Rachael Katie Cosmetics London. Gold standard treatment for acne scars, wrinkles & skin texture. 70-80% scar reduction. Award-winning aesthetics practitioner with 1,257+ 5-star Google reviews.',
-  keywords: 'CO2 laser London, acne scar treatment London, laser skin resurfacing, CO2 laser treatment, pigmentation treatment, wrinkle treatment, Rachael Katie Cosmetics, Rachael Katie, London aesthetics, laser resurfacing UK, CO2 laser acne scars, fractional laser London',
+  title: 'CO2 Laser Treatment Southampton - Expert Skin Resurfacing | Rachael Katie Cosmetics',
+  description: 'Transform your skin with CO2 laser treatment at Rachael Katie Cosmetics Southampton. Gold standard treatment for acne scars, wrinkles & skin texture. 70-80% scar reduction. Award-winning aesthetics practitioner with 1,257+ 5-star Google reviews.',
+  keywords: 'CO2 laser Southampton, acne scar treatment Southampton, laser skin resurfacing, CO2 laser treatment, pigmentation treatment, wrinkle treatment, Rachael Katie Cosmetics, Rachael Katie, Southampton aesthetics, laser resurfacing UK, CO2 laser acne scars, fractional laser Southampton',
   authors: [{ name: 'Rachael Katie Cosmetics' }],
   creator: 'Rachael Katie Cosmetics',
   publisher: 'Rachael Katie Cosmetics',

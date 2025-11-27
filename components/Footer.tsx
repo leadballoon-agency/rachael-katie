@@ -10,7 +10,7 @@ export default function Footer() {
               className="h-12 mb-4 logo-white"
             />
             <p className="text-gray-400">
-              Expert CO2 laser treatments in London
+              Expert CO2 laser treatments in Southampton
             </p>
           </div>
 
@@ -18,8 +18,8 @@ export default function Footer() {
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="tel:+447846888649" className="hover:text-white">
-                  +44 7846 888649
+                <a href="tel:+447450535007" className="hover:text-white">
+                  +44 7450 535007
                 </a>
               </li>
               <li>63 London Rd</li>
