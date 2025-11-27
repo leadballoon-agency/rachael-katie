@@ -35,7 +35,7 @@ export default function Footer() {
               <li><a href="#treatments" className="hover:text-white">Treatments</a></li>
               <li><a href="#results" className="hover:text-white">Results</a></li>
               <li><a href="#contact" className="hover:text-white">Contact</a></li>
-              <li><a href="https://rachaelkatiecosmetics.co.uk/privacy-policy/" target="_blank" rel="noopener noreferrer" className="hover:text-white">Privacy Policy</a></li>
+              <li><a href="/privacy-policy" className="hover:text-white">Privacy Policy</a></li>
             </ul>
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function Footer() {
             This site may use Meta tracking technologies to improve user experience and analyze site performance.
           </p>
           <p className="text-xs text-gray-500">
-            <a href="https://rachaelkatiecosmetics.co.uk/privacy-policy/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 underline">
+            <a href="/privacy-policy" className="hover:text-gray-300 underline">
               Privacy Policy
             </a>
           </p>
