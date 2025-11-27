@@ -65,7 +65,11 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
             </div>
 
             {/* Social Proof - Mobile Optimized with Grid */}
-            <div className="grid grid-cols-2 sm:flex sm:items-center sm:justify-center lg:justify-start gap-4 sm:gap-6 pt-2 max-w-md mx-auto lg:mx-0">
+            <div className="grid grid-cols-2 sm:grid-cols-5 gap-4 sm:gap-4 pt-2 max-w-xl mx-auto lg:mx-0">
+              <div className="text-center">
+                <p className="text-xl sm:text-2xl font-bold text-primary-600">👨‍⚕️</p>
+                <p className="text-xs text-neutral-600 whitespace-nowrap">Doctor Led</p>
+              </div>
               <div className="text-center">
                 <p className="text-xl sm:text-2xl font-bold text-primary-600">70-80%</p>
                 <p className="text-xs text-neutral-600 whitespace-nowrap">Scar Reduction</p>
@@ -78,7 +82,7 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
                 <p className="text-xl sm:text-2xl font-bold text-primary-600">5.0★</p>
                 <p className="text-xs text-neutral-600 whitespace-nowrap">Google Rating</p>
               </div>
-              <div className="text-center">
+              <div className="text-center col-span-2 sm:col-span-1">
                 <p className="text-xl sm:text-2xl font-bold text-primary-600"><AnimatedCounter target={1257} suffix="+" /></p>
                 <p className="text-xs text-neutral-600 whitespace-nowrap">Reviews</p>
               </div>
