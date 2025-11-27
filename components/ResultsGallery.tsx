@@ -137,8 +137,8 @@ export default function ResultsGallery({ onBookingClick }: ResultsGalleryProps) 
         <div className="mt-8 sm:mt-12">
           <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-premium h-[400px] sm:h-[500px] lg:h-[600px]">
             <img
-              src="/images/clinic/inside1.webp"
-              alt="RK Skincare Clinic Interior"
+              src="/images/clinic/reception.jpeg"
+              alt="RK Skincare Clinic Reception"
               className="absolute inset-0 w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/75 sm:from-black/60 via-black/50 sm:via-black/40 to-transparent flex items-center">
