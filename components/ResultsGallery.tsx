@@ -164,7 +164,7 @@ export default function ResultsGallery({ onBookingClick }: ResultsGalleryProps) 
         <div className="mt-10 sm:mt-12 lg:mt-16 grid grid-cols-3 gap-4 sm:gap-6">
           {[
             { number: '12+', label: 'Years Experience' },
-            { number: '£395', label: 'Starting From' },
+            { number: '£350', label: 'Starting From' },
             { number: '100s', label: 'Happy Clients' }
           ].map((stat, index) => (
             <div key={index} className="text-center">

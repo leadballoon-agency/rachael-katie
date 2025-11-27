@@ -78,12 +78,19 @@ export default function CTASection({ onBookingClick }: CTASectionProps) {
             </div>
             <p className="text-xs sm:text-sm text-white/80">5.0 on Google</p>
           </div>
-          
+
           <div className="hidden sm:block w-px h-12 bg-white/30"></div>
-          
+
           <div className="text-center">
             <p className="text-xl sm:text-2xl font-bold mb-0.5 sm:mb-1">12+</p>
             <p className="text-xs sm:text-sm text-white/80">Years Experience</p>
+          </div>
+
+          <div className="hidden sm:block w-px h-12 bg-white/30"></div>
+
+          <div className="text-center">
+            <p className="text-xl sm:text-2xl font-bold mb-0.5 sm:mb-1">👨‍⚕️</p>
+            <p className="text-xs sm:text-sm text-white/80">Doctor Led Clinic</p>
           </div>
         </div>
       </div>

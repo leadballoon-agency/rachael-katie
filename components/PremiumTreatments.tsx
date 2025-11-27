@@ -5,32 +5,35 @@ interface PremiumTreatmentsProps {
 }
 
 export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsProps) {
+  // PRICING - Easy to update when offer ends
   const treatments = [
     {
       icon: '✨',
-      title: 'Single Session',
-      description: "Individual CO2 laser treatment",
-      features: ['Full face treatment', '5-7 days downtime', '60-90 minutes', 'Immediate results'],
-      price: '£395',
-      gradient: 'from-blue-400 to-cyan-600',
-      popular: false
+      title: 'Full Face CO2 Laser',
+      description: 'Most popular treatment for scars & texture',
+      features: ['Full face treatment', 'Acne scars & scarring', 'x3 package: £1,080 + FREE PRP', 'Save £100 - Limited Time!'],
+      price: '£350',
+      originalPrice: '£450',
+      gradient: 'from-primary-400 to-primary-600',
+      popular: true,
+      badge: 'Limited Time Offer'
     },
     {
       icon: '💎',
-      title: '3 Session Package',
-      description: 'Complete transformation package',
-      features: ['3 CO2 laser sessions', 'Save £335 total', 'Book within 6 months', 'Best for acne scars'],
-      price: '£850',
-      gradient: 'from-primary-400 to-primary-600',
-      popular: true
+      title: 'Premium Rejuvenation',
+      description: 'Comprehensive anti-aging treatment',
+      features: ['Face, eyes, neck & chest', 'Fine lines & wrinkles', 'FREE PRP included', 'Complete transformation'],
+      price: '£750',
+      gradient: 'from-purple-400 to-purple-600',
+      popular: false
     },
     {
-      icon: '🔬',
-      title: 'Single + PRP',
-      description: 'CO2 laser with PRP enhancement',
-      features: ['CO2 laser treatment', 'PRP enhancement included', 'Faster healing', 'Enhanced results'],
-      price: '£495',
-      gradient: 'from-green-400 to-emerald-600',
+      icon: '🎯',
+      title: 'Targeted Treatments',
+      description: 'Eyes, body & specific areas',
+      features: ['Eyelids: from £210', 'Body areas: from £310', 'x3 package: £744 + FREE PRP', 'Stretch marks & loose skin'],
+      price: 'From £210',
+      gradient: 'from-blue-400 to-cyan-600',
       popular: false
     }
   ]
@@ -59,7 +62,7 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
             >
               {treatment.popular && (
                 <div className="absolute -top-2 sm:-top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-primary-500 to-primary-600 text-white px-3 sm:px-4 py-0.5 sm:py-1 rounded-full text-xs sm:text-sm font-medium">
-                  Best Value
+                  {(treatment as any).badge || 'Most Popular'}
                 </div>
               )}
               
@@ -90,12 +93,14 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
 
                 <div className="flex items-center justify-between pt-3 sm:pt-4 border-t border-neutral-100 mt-auto">
                   <div>
-                    <p className="text-xs text-neutral-500 sm:hidden">From</p>
+                    {(treatment as any).originalPrice && (
+                      <p className="text-sm text-neutral-400 line-through">{(treatment as any).originalPrice}</p>
+                    )}
                     <p className="text-xl sm:text-2xl font-bold gradient-text">{treatment.price}</p>
                   </div>
                   <button
                     onClick={() => {
-                      if (treatment.title === '3 Session Package') {
+                      if (treatment.title === 'Full Face CO2 Laser') {
                         trackPRPDealView()
                       }
                       onBookingClick?.()
