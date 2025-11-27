@@ -11,12 +11,12 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
       icon: '✨',
       title: 'Full Face CO2 Laser',
       description: 'Most popular treatment for scars & texture',
-      features: ['Full face treatment', 'Acne scars & scarring', 'FREE PRP with course of 3', 'Save £100 - Limited Time!'],
+      features: ['Full face treatment', 'Acne scars & scarring', 'FREE PRP with course of 3', 'Save £100 - Black Friday!'],
       price: '£350',
       originalPrice: '£450',
       gradient: 'from-primary-400 to-primary-600',
       popular: true,
-      badge: 'Limited Time Offer'
+      badge: 'Black Friday Offer'
     },
     {
       icon: '👁️',

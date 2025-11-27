@@ -117,7 +117,7 @@ export default function AssessmentTool({ onBookingClick, onAssessmentComplete }:
       treatment: 'Full Face CO2 Laser',
       price: '£350',
       originalPrice: '£450',
-      description: 'Our most popular treatment - now with £100 off! Perfect for acne scars, fine lines, pigmentation & skin texture. FREE PRP when you buy a course of 3.',
+      description: 'Our most popular treatment - Black Friday price! Save £100 on acne scars, fine lines, pigmentation & skin texture. FREE PRP when you buy a course of 3.',
       isSuitable: true,
       skinType: skinType
     }
