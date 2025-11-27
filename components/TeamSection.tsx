@@ -5,16 +5,16 @@ interface TeamSectionProps {
 export default function TeamSection({ onBookingClick }: TeamSectionProps) {
   const team = [
     {
-      name: 'Rachael Katie',
-      title: 'Award-Winning Aesthetics Practitioner',
+      name: 'Rachael Katie Cosmetics',
+      title: 'Doctor-Led Aesthetics Clinic',
       credentials: '',
       image: '/images/Rachael-2.png',
-      bio: 'Welcome to Rachael Katie Cosmetics, where expertise meets excellence. With a 5.0-star rating from over 1,257 Google reviews, I am dedicated to providing exceptional CO2 laser treatments that deliver real, transformative results. Specialising in advanced skin rejuvenation, acne scar treatment, and anti-aging procedures, I combine cutting-edge technology with personalized care to help you achieve your skin goals.',
+      bio: 'Welcome to Rachael Katie Cosmetics, where expertise meets excellence. As a doctor-led clinic with a 5.0-star rating from over 1,257 Google reviews, our team is dedicated to providing exceptional CO2 laser treatments that deliver real, transformative results. Specialising in advanced skin rejuvenation, acne scar treatment, and anti-aging procedures, we combine cutting-edge technology with personalised care to help you achieve your skin goals.',
       qualifications: [
         '1,257+ 5-Star Google Reviews',
-        'Advanced CO2 Laser Specialist',
-        'Acne Scar & Skin Rejuvenation Expert',
-        'Award-Winning Aesthetics Clinic'
+        'Doctor-Led Clinic',
+        'Advanced CO2 Laser Specialists',
+        'Award-Winning Aesthetics Team'
       ]
     }
   ]
@@ -23,13 +23,13 @@ export default function TeamSection({ onBookingClick }: TeamSectionProps) {
     <section id="team" className="py-12 sm:py-16 md:py-24 bg-gradient-to-b from-white to-primary-50">
       <div className="max-w-7xl mx-auto section-padding">
         <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-          <span className="text-primary-600 font-medium tracking-wider uppercase text-xs sm:text-sm">CO2 Laser Expert</span>
+          <span className="text-primary-600 font-medium tracking-wider uppercase text-xs sm:text-sm">CO2 Laser Experts</span>
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mt-2 sm:mt-4">
-            Meet Rachael
-            <span className="block gradient-text">Katie</span>
+            Meet Our
+            <span className="block gradient-text">Expert Team</span>
           </h2>
           <p className="text-sm sm:text-base lg:text-lg text-neutral-600 mt-2 sm:mt-4 max-w-2xl mx-auto px-4">
-            Award-winning practitioner with 1,257+ 5-star Google reviews
+            Doctor-led clinic with 1,257+ 5-star Google reviews
           </p>
         </div>
 
@@ -93,10 +93,10 @@ export default function TeamSection({ onBookingClick }: TeamSectionProps) {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             <div>
               <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
-                <span className="text-xl sm:text-2xl">👩‍⚕️</span>
+                <span className="text-xl sm:text-2xl">👨‍⚕️</span>
               </div>
               <h4 className="font-semibold text-sm sm:text-base mb-1 sm:mb-2">Medical Expertise</h4>
-              <p className="text-xs sm:text-sm text-neutral-600">Nurse-led treatments</p>
+              <p className="text-xs sm:text-sm text-neutral-600">Doctor-led clinic</p>
             </div>
             <div>
               <div className="w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">

@@ -5,15 +5,15 @@ interface AboutSectionProps {
 export default function AboutSection({ onBookingClick }: AboutSectionProps) {
   const practitioners = [
     {
-      name: 'Rachael Katie',
-      title: 'Award-Winning Aesthetics Practitioner',
+      name: 'Rachael Katie Cosmetics',
+      title: 'Doctor-Led Aesthetics Clinic',
       image: '/images/Rachael-2.png',
-      bio: 'Welcome to Rachael Katie Cosmetics, where expertise meets excellence. With a 5.0-star rating from over 1,257 Google reviews, I am dedicated to providing exceptional CO2 laser treatments that deliver real, transformative results. Specialising in advanced skin rejuvenation, acne scar treatment, and anti-aging procedures, I combine cutting-edge technology with personalized care to help you achieve your skin goals.',
+      bio: 'Welcome to Rachael Katie Cosmetics, where expertise meets excellence. As a doctor-led clinic with a 5.0-star rating from over 1,257 Google reviews, our team is dedicated to providing exceptional CO2 laser treatments that deliver real, transformative results. Specialising in advanced skin rejuvenation, acne scar treatment, and anti-aging procedures, we combine cutting-edge technology with personalised care to help you achieve your skin goals.',
       qualifications: [
         '1,257+ 5-Star Google Reviews',
-        'Advanced CO2 Laser Specialist',
-        'Acne Scar & Skin Rejuvenation Expert',
-        'Award-Winning Aesthetics Clinic'
+        'Doctor-Led Clinic',
+        'Advanced CO2 Laser Specialists',
+        'Award-Winning Aesthetics Team'
       ]
     }
   ]
@@ -22,13 +22,13 @@ export default function AboutSection({ onBookingClick }: AboutSectionProps) {
     <section id="about" className="py-12 sm:py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto section-padding">
         <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-          <span className="text-primary-600 font-medium tracking-wider uppercase text-xs sm:text-sm">Meet Your Expert Practitioner</span>
+          <span className="text-primary-600 font-medium tracking-wider uppercase text-xs sm:text-sm">About Our Clinic</span>
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mt-2 sm:mt-4">
             Award-Winning
             <span className="block gradient-text">Excellence</span>
           </h2>
           <p className="text-sm sm:text-base lg:text-lg text-neutral-600 mt-2 sm:mt-4 max-w-2xl mx-auto px-4">
-            5.0-star rated practitioner with 1,257+ Google reviews
+            Doctor-led clinic with 1,257+ 5-star Google reviews
           </p>
         </div>
 

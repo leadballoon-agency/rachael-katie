@@ -39,7 +39,7 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
             </h1>
 
             <p className="text-sm sm:text-lg md:text-xl text-neutral-600 leading-relaxed max-w-xl mx-auto lg:mx-0 px-2 sm:px-0">
-              The gold standard treatment for acne scars, wrinkles, and skin texture. Expert care by Rachael Katie at Rachael Katie Cosmetics, Southampton.
+              The gold standard treatment for acne scars, wrinkles, and skin texture. Doctor-led care at Rachael Katie Cosmetics, Southampton.
             </p>
 
             {/* CTA Buttons */}
@@ -150,7 +150,9 @@ export default function PremiumHero({ onBookingClick, onVideoClick }: PremiumHer
                     <div className="flex justify-center items-center space-x-2 text-primary-600">
                       <span className="font-medium">5.0★ Google Rating</span>
                       <span className="text-primary-300">•</span>
-                      <span className="font-medium">Rachael Katie - <AnimatedCounter target={1257} suffix="+" /> Reviews</span>
+                      <span className="font-medium"><AnimatedCounter target={1257} suffix="+" /> Reviews</span>
+                      <span className="text-primary-300">•</span>
+                      <span className="font-medium">Doctor Led</span>
                     </div>
                   </div>
                 </div>
