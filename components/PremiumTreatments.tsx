@@ -11,7 +11,7 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
       icon: '✨',
       title: 'Full Face CO2 Laser',
       description: 'Most popular treatment for scars & texture',
-      features: ['Full face treatment', 'Acne scars & scarring', 'x3 package: £1,080 + FREE PRP', 'Save £100 - Limited Time!'],
+      features: ['Full face treatment', 'Acne scars & scarring', 'FREE PRP with course of 3', 'Save £100 - Limited Time!'],
       price: '£350',
       originalPrice: '£450',
       gradient: 'from-primary-400 to-primary-600',
@@ -19,20 +19,20 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
       badge: 'Limited Time Offer'
     },
     {
-      icon: '💎',
-      title: 'Premium Rejuvenation',
-      description: 'Comprehensive anti-aging treatment',
-      features: ['Face, eyes, neck & chest', 'Fine lines & wrinkles', 'FREE PRP included', 'Complete transformation'],
-      price: '£750',
+      icon: '👁️',
+      title: 'Eye Rejuvenation',
+      description: 'Specialist delicate eye area treatment',
+      features: ['Heavy/hooded eyelids', 'Under-eye bags', 'Delicate eye area specialist', 'Not all clinics can offer this'],
+      price: 'From £210',
       gradient: 'from-purple-400 to-purple-600',
       popular: false
     },
     {
       icon: '🎯',
-      title: 'Targeted Treatments',
-      description: 'Eyes, body & specific areas',
-      features: ['Eyelids: from £210', 'Body areas: from £310', 'x3 package: £744 + FREE PRP', 'Stretch marks & loose skin'],
-      price: 'From £210',
+      title: 'Stretch Marks & Loose Skin',
+      description: 'Body areas & skin tightening',
+      features: ['Stretch marks reduction', 'Loose skin tightening', 'Body areas (10x10cm)', 'FREE PRP with course of 3'],
+      price: 'From £310',
       gradient: 'from-blue-400 to-cyan-600',
       popular: false
     }

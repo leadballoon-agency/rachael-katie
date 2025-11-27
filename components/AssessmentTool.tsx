@@ -87,83 +87,39 @@ export default function AssessmentTool({ onBookingClick, onAssessmentComplete }:
 
   const getRecommendation = (assessmentAnswers: any = answers) => {
     const concern = assessmentAnswers[1]
-    const ageRange = assessmentAnswers[2]
     const skinType = assessmentAnswers[3]
 
     // Types V-VI (5-6) - NOT suitable for CO2 laser
     if (skinType >= 5) {
-      // Recommend alternative treatments
-      if (concern === 'wrinkles' || concern === 'aging') {
-        return {
-          treatment: 'HIFU Skin Tightening',
-          price: '£800',
-          description: 'Perfect alternative for darker skin tones. Non-invasive ultrasound treatment for lifting and tightening without laser risks.',
-          isSuitable: false,
-          skinType: skinType
-        }
-      } else if (concern === 'scars') {
-        return {
-          treatment: 'Microneedling with PRF',
-          price: '£400',
-          description: 'Safe and effective for acne scars on darker skin. Uses your own growth factors for natural healing.',
-          isSuitable: false,
-          skinType: skinType
-        }
-      } else if (concern === 'pigmentation') {
-        return {
-          treatment: 'Chemical Peel (TCA)',
-          price: '£250',
-          description: 'Specially formulated peels safe for darker skin tones. Reduces pigmentation without laser risks.',
-          isSuitable: false,
-          skinType: skinType
-        }
-      } else {
-        return {
-          treatment: 'RF Microneedling',
-          price: '£600',
-          description: 'Gold standard for darker skin types. Combines radiofrequency with microneedling for safe, effective results.',
-          isSuitable: false,
-          skinType: skinType
-        }
+      return {
+        treatment: 'Consultation Required',
+        price: 'Free',
+        description: 'Based on your skin type, we recommend booking a free consultation to discuss safe and effective alternative treatments tailored specifically for you.',
+        isSuitable: false,
+        skinType: skinType
       }
     }
 
     // Types I-IV (1-4) - SUITABLE for CO2 laser
-    // Recommend based on severity and concerns
-    if (concern === 'scars' ||
-        (concern === 'wrinkles' && ageRange === '50+') ||
-        (concern === 'pigmentation' && ageRange !== '20-30')) {
+    // Stretch marks → Body treatment
+    if (concern === 'stretch-marks') {
       return {
-        treatment: 'PRP For Free Deal',
-        price: '£700',
-        description: 'Best value - 2 sessions for £350 each + FREE PRP enhancement. Save £300 total! Perfect for deeper concerns.',
+        treatment: 'Stretch Marks & Loose Skin Treatment',
+        price: 'From £310',
+        description: 'Targeted CO2 laser treatment for stretch marks and loose skin. FREE PRP when you buy a course of 3 for optimal results.',
         isSuitable: true,
         skinType: skinType
       }
-    } else if (concern === 'stretch-marks') {
-      return {
-        treatment: 'PRP For Free Deal',
-        price: '£700',
-        description: 'Recommended for stretch marks - 2 sessions with FREE PRP for optimal results',
-        isSuitable: true,
-        skinType: skinType
-      }
-    } else if (concern === 'pigmentation' || concern === 'wrinkles' || concern === 'aging') {
-      return {
-        treatment: 'Single + PRP',
-        price: '£500',
-        description: 'Single CO2 laser session with PRP enhancement for faster healing and better results',
-        isSuitable: true,
-        skinType: skinType
-      }
-    } else {
-      return {
-        treatment: 'Single Session',
-        price: '£450',
-        description: 'Individual CO2 laser treatment for targeted skin improvement',
-        isSuitable: true,
-        skinType: skinType
-      }
+    }
+
+    // All other concerns → Full Face CO2 (hero offer)
+    return {
+      treatment: 'Full Face CO2 Laser',
+      price: '£350',
+      originalPrice: '£450',
+      description: 'Our most popular treatment - now with £100 off! Perfect for acne scars, fine lines, pigmentation & skin texture. FREE PRP when you buy a course of 3.',
+      isSuitable: true,
+      skinType: skinType
     }
   }
 
@@ -297,9 +253,14 @@ export default function AssessmentTool({ onBookingClick, onAssessmentComplete }:
                 <h4 className="text-lg sm:text-xl font-bold text-primary-600 mb-2">
                   {getRecommendation().treatment}
                 </h4>
-                <p className="text-2xl sm:text-3xl font-bold gradient-text mb-2 sm:mb-3">
-                  {getRecommendation().price}
-                </p>
+                <div className="mb-2 sm:mb-3">
+                  {(getRecommendation() as any).originalPrice && (
+                    <p className="text-lg text-neutral-400 line-through">{(getRecommendation() as any).originalPrice}</p>
+                  )}
+                  <p className="text-2xl sm:text-3xl font-bold gradient-text">
+                    {getRecommendation().price}
+                  </p>
+                </div>
                 <p className="text-sm sm:text-base text-neutral-600">
                   {getRecommendation().description}
                 </p>
