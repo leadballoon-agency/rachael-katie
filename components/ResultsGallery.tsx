@@ -50,14 +50,14 @@ export default function ResultsGallery({ onBookingClick }: ResultsGalleryProps) 
       isAvailable: true,
       featured: false
     },
-    {
-      image: '/images/model-day-tile.svg',
-      title: 'Book a Consultation',
-      description: 'See your transformation - schedule your free consultation',
-      time: 'Book Now',
-      isAvailable: true,
-      featured: false
-    }
+    // {
+    //   image: '/images/model-day-tile.svg',
+    //   title: 'Book a Consultation',
+    //   description: 'See your transformation - schedule your free consultation',
+    //   time: 'Book Now',
+    //   isAvailable: true,
+    //   featured: false
+    // }
   ]
 
   return (
