@@ -11,12 +11,12 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
       icon: '✨',
       title: 'Full Face CO2 Laser',
       description: 'Most popular treatment for scars & texture',
-      features: ['Full face treatment', 'Acne scars & scarring', 'FREE PRP with course of 3', 'Save £100 - Black Friday!'],
-      price: '£350',
-      originalPrice: '£450',
+      features: ['Full face treatment', 'Acne scars & scarring', 'FREE PRP with course of 3', 'Upper & lower eye add-on available'],
+      price: '£450',
+      addon: '+ Upper & Lower Eye Rejuvenation £100 (normally £210)',
       gradient: 'from-primary-400 to-primary-600',
       popular: true,
-      badge: 'Black Friday Offer'
+      badge: 'MOST POPULAR'
     },
     {
       icon: '👁️',
@@ -91,24 +91,29 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
                   ))}
                 </ul>
 
-                <div className="flex items-center justify-between pt-3 sm:pt-4 border-t border-neutral-100 mt-auto">
-                  <div>
-                    {(treatment as any).originalPrice && (
-                      <p className="text-sm text-neutral-400 line-through">{(treatment as any).originalPrice}</p>
-                    )}
-                    <p className="text-xl sm:text-2xl font-bold gradient-text">{treatment.price}</p>
+                <div className="pt-3 sm:pt-4 border-t border-neutral-100 mt-auto">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      {(treatment as any).originalPrice && (
+                        <p className="text-sm text-neutral-400 line-through">{(treatment as any).originalPrice}</p>
+                      )}
+                      <p className="text-xl sm:text-2xl font-bold gradient-text">{treatment.price}</p>
+                    </div>
+                    <button
+                      onClick={() => {
+                        if (treatment.title === 'Full Face CO2 Laser') {
+                          trackPRPDealView()
+                        }
+                        onBookingClick?.()
+                      }}
+                      className={`px-4 sm:px-5 lg:px-6 py-2.5 sm:py-3 rounded-full bg-gradient-to-r ${treatment.gradient} text-white font-medium hover:shadow-lg transition-all duration-300 sm:hover:scale-105 text-sm sm:text-base`}
+                    >
+                      Get Started
+                    </button>
                   </div>
-                  <button
-                    onClick={() => {
-                      if (treatment.title === 'Full Face CO2 Laser') {
-                        trackPRPDealView()
-                      }
-                      onBookingClick?.()
-                    }}
-                    className={`px-4 sm:px-5 lg:px-6 py-2.5 sm:py-3 rounded-full bg-gradient-to-r ${treatment.gradient} text-white font-medium hover:shadow-lg transition-all duration-300 sm:hover:scale-105 text-sm sm:text-base`}
-                  >
-                    Get Started
-                  </button>
+                  {(treatment as any).addon && (
+                    <p className="text-xs sm:text-sm text-primary-500/80 mt-2">{(treatment as any).addon}</p>
+                  )}
                 </div>
               </div>
             </div>

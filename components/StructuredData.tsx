@@ -37,20 +37,30 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "MedicalProcedure",
-            "name": "Single CO2 Laser Session",
-            "description": "Professional fractional CO2 laser treatment for skin resurfacing"
+            "name": "Full Face CO2 Laser",
+            "description": "Professional fractional CO2 laser treatment for skin resurfacing, acne scars and skin texture"
           },
-          "price": "395",
+          "price": "450",
           "priceCurrency": "GBP"
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "MedicalProcedure",
-            "name": "CO2 Laser 3 Session Package",
-            "description": "Comprehensive package for acne scars, wrinkles, and skin rejuvenation - Save £335"
+            "name": "Eye Rejuvenation CO2 Laser",
+            "description": "Specialist CO2 laser treatment for heavy/hooded eyelids and under-eye bags"
           },
-          "price": "850",
+          "price": "210",
+          "priceCurrency": "GBP"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "MedicalProcedure",
+            "name": "Full Face + Eye Rejuvenation CO2 Laser",
+            "description": "Full face CO2 laser with upper and lower eye rejuvenation add-on"
+          },
+          "price": "550",
           "priceCurrency": "GBP"
         },
         {
