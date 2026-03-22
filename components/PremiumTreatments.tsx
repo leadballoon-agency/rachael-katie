@@ -20,10 +20,10 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
     },
     {
       icon: '👁️',
-      title: 'Eye Rejuvenation',
-      description: 'Specialist delicate eye area treatment',
+      title: 'Non-Surgical Blepharoplasty',
+      description: 'Upper or lower eye rejuvenation',
       features: ['Heavy/hooded eyelids', 'Under-eye bags', 'Delicate eye area specialist', 'Not all clinics can offer this'],
-      price: 'From £100',
+      price: '£100',
       gradient: 'from-purple-400 to-purple-600',
       popular: false
     },
@@ -91,19 +91,29 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
                   ))}
                 </ul>
 
-                {/* Eye Add-on Box */}
+                {/* Add-ons Box */}
                 {(treatment as any).eyeAddon && (
-                  <div className="mb-4 sm:mb-5 bg-gradient-to-br from-purple-50 to-primary-50 border border-purple-200/60 rounded-xl p-3 sm:p-4">
-                    <div className="flex items-center gap-2 mb-2">
-                      <span className="text-lg">👁️</span>
-                      <p className="text-sm font-semibold text-neutral-800">Add Eye Rejuvenation</p>
-                    </div>
-                    <div className="flex gap-3 text-xs sm:text-sm text-neutral-600">
-                      <span>Upper <strong className="text-neutral-800">+£100</strong></span>
-                      <span className="text-neutral-300">|</span>
-                      <span>Lower <strong className="text-neutral-800">+£100</strong></span>
-                      <span className="text-neutral-300">|</span>
-                      <span>Both <strong className="text-neutral-800">+£200</strong></span>
+                  <div className="mb-4 sm:mb-5 bg-gradient-to-br from-neutral-50 to-primary-50/50 border border-neutral-200 rounded-xl p-3 sm:p-4">
+                    <p className="text-xs font-semibold text-neutral-500 uppercase tracking-wider mb-2.5">Optional Add-ons</p>
+                    <div className="space-y-2">
+                      <div className="flex items-center justify-between text-xs sm:text-sm">
+                        <span className="flex items-center gap-1.5 text-neutral-700">
+                          <span>👁️</span> Upper Eye Rejuvenation
+                        </span>
+                        <strong className="text-neutral-800">+£100</strong>
+                      </div>
+                      <div className="flex items-center justify-between text-xs sm:text-sm">
+                        <span className="flex items-center gap-1.5 text-neutral-700">
+                          <span>👁️</span> Lower Eye Rejuvenation
+                        </span>
+                        <strong className="text-neutral-800">+£100</strong>
+                      </div>
+                      <div className="flex items-center justify-between text-xs sm:text-sm">
+                        <span className="flex items-center gap-1.5 text-neutral-700">
+                          <span>⬇️</span> Neck
+                        </span>
+                        <strong className="text-neutral-800">+£49</strong>
+                      </div>
                     </div>
                   </div>
                 )}
