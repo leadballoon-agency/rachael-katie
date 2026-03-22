@@ -98,13 +98,7 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
                     <div className="space-y-2">
                       <div className="flex items-center justify-between text-xs sm:text-sm">
                         <span className="flex items-center gap-1.5 text-neutral-700">
-                          <span>👁️</span> Upper Eye Rejuvenation
-                        </span>
-                        <strong className="text-neutral-800">+£100</strong>
-                      </div>
-                      <div className="flex items-center justify-between text-xs sm:text-sm">
-                        <span className="flex items-center gap-1.5 text-neutral-700">
-                          <span>👁️</span> Lower Eye Rejuvenation
+                          <span>👁️</span> Upper &amp;/or Lower Eye Rejuvenation
                         </span>
                         <strong className="text-neutral-800">+£100</strong>
                       </div>
