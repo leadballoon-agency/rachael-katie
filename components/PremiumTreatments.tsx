@@ -10,10 +10,10 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
     {
       icon: '✨',
       title: 'Full Face CO2 Laser',
-      description: 'Most popular treatment for scars & texture',
-      features: ['Full face treatment', 'Acne scars & scarring', 'FREE PRP with course of 3', 'Upper & lower eye add-on available'],
+      description: 'Most popular treatment for scars, texture & fine lines',
+      features: ['Acne scars & scarring', 'Fine lines & wrinkles', 'FREE PRP included', 'Complimentary consultation'],
       price: '£450',
-      addon: '+ Upper & Lower Eye Rejuvenation £100 (normally £210)',
+      eyeAddon: true,
       gradient: 'from-primary-400 to-primary-600',
       popular: true,
       badge: 'MOST POPULAR'
@@ -23,7 +23,7 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
       title: 'Eye Rejuvenation',
       description: 'Specialist delicate eye area treatment',
       features: ['Heavy/hooded eyelids', 'Under-eye bags', 'Delicate eye area specialist', 'Not all clinics can offer this'],
-      price: 'From £210',
+      price: 'From £100',
       gradient: 'from-purple-400 to-purple-600',
       popular: false
     },
@@ -31,7 +31,7 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
       icon: '🎯',
       title: 'Stretch Marks & Loose Skin',
       description: 'Body areas & skin tightening',
-      features: ['Stretch marks reduction', 'Loose skin tightening', 'Body areas (10x10cm)', 'FREE PRP with course of 3'],
+      features: ['Stretch marks reduction', 'Loose skin tightening', 'Body areas (10x10cm)', 'FREE PRP included'],
       price: 'From £310',
       gradient: 'from-blue-400 to-cyan-600',
       popular: false
@@ -91,12 +91,26 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
                   ))}
                 </ul>
 
+                {/* Eye Add-on Box */}
+                {(treatment as any).eyeAddon && (
+                  <div className="mb-4 sm:mb-5 bg-gradient-to-br from-purple-50 to-primary-50 border border-purple-200/60 rounded-xl p-3 sm:p-4">
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-lg">👁️</span>
+                      <p className="text-sm font-semibold text-neutral-800">Add Eye Rejuvenation</p>
+                    </div>
+                    <div className="flex gap-3 text-xs sm:text-sm text-neutral-600">
+                      <span>Upper <strong className="text-neutral-800">+£100</strong></span>
+                      <span className="text-neutral-300">|</span>
+                      <span>Lower <strong className="text-neutral-800">+£100</strong></span>
+                      <span className="text-neutral-300">|</span>
+                      <span>Both <strong className="text-neutral-800">+£200</strong></span>
+                    </div>
+                  </div>
+                )}
+
                 <div className="pt-3 sm:pt-4 border-t border-neutral-100 mt-auto">
                   <div className="flex items-center justify-between">
                     <div>
-                      {(treatment as any).originalPrice && (
-                        <p className="text-sm text-neutral-400 line-through">{(treatment as any).originalPrice}</p>
-                      )}
                       <p className="text-xl sm:text-2xl font-bold gradient-text">{treatment.price}</p>
                     </div>
                     <button
@@ -111,9 +125,6 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
                       Get Started
                     </button>
                   </div>
-                  {(treatment as any).addon && (
-                    <p className="text-xs sm:text-sm text-primary-500/80 mt-2">{(treatment as any).addon}</p>
-                  )}
                 </div>
               </div>
             </div>

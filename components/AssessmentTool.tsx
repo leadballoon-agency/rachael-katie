@@ -116,7 +116,7 @@ export default function AssessmentTool({ onBookingClick, onAssessmentComplete }:
     return {
       treatment: 'Full Face CO2 Laser',
       price: '£450',
-      description: 'Our most popular treatment for acne scars, fine lines, pigmentation & skin texture. Add upper & lower eye rejuvenation for just £100 (normally £210). FREE PRP when you buy a course of 3.',
+      description: 'Our most popular treatment for acne scars, fine lines, pigmentation & skin texture. Add eye rejuvenation from +£100 per area. FREE PRP included.',
       isSuitable: true,
       skinType: skinType
     }

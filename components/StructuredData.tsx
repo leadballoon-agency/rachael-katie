@@ -47,30 +47,30 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "MedicalProcedure",
-            "name": "Eye Rejuvenation CO2 Laser",
-            "description": "Specialist CO2 laser treatment for heavy/hooded eyelids and under-eye bags"
-          },
-          "price": "210",
-          "priceCurrency": "GBP"
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "MedicalProcedure",
-            "name": "Full Face + Eye Rejuvenation CO2 Laser",
-            "description": "Full face CO2 laser with upper and lower eye rejuvenation add-on"
-          },
-          "price": "550",
-          "priceCurrency": "GBP"
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "MedicalProcedure",
-            "name": "PRP Enhancement Add-on",
-            "description": "Platelet Rich Plasma therapy add-on for enhanced healing and results"
+            "name": "Eye Rejuvenation CO2 Laser (Upper or Lower)",
+            "description": "Specialist CO2 laser treatment for upper or lower eye area"
           },
           "price": "100",
+          "priceCurrency": "GBP"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "MedicalProcedure",
+            "name": "Eye Rejuvenation CO2 Laser (Upper & Lower)",
+            "description": "Specialist CO2 laser treatment for both upper and lower eye areas"
+          },
+          "price": "200",
+          "priceCurrency": "GBP"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "MedicalProcedure",
+            "name": "Full Face + Eyes CO2 Laser",
+            "description": "Full face CO2 laser with upper and lower eye rejuvenation"
+          },
+          "price": "650",
           "priceCurrency": "GBP"
         }
       ]
