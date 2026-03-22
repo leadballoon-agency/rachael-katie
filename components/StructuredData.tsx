@@ -40,7 +40,7 @@ export default function StructuredData() {
             "name": "Full Face CO2 Laser",
             "description": "Professional fractional CO2 laser treatment for skin resurfacing, acne scars and skin texture"
           },
-          "price": "450",
+          "price": "350",
           "priceCurrency": "GBP"
         },
         {
@@ -70,7 +70,7 @@ export default function StructuredData() {
             "name": "Full Face + Eyes CO2 Laser",
             "description": "Full face CO2 laser with upper and lower eye rejuvenation"
           },
-          "price": "650",
+          "price": "550",
           "priceCurrency": "GBP"
         }
       ]

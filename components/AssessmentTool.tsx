@@ -115,7 +115,7 @@ export default function AssessmentTool({ onBookingClick, onAssessmentComplete }:
     // All other concerns → Full Face CO2 (hero offer)
     return {
       treatment: 'Full Face CO2 Laser',
-      price: '£450',
+      price: '£350',
       description: 'Our most popular treatment for acne scars, fine lines, pigmentation & skin texture. Add eye rejuvenation from +£100 per area. FREE PRP included.',
       isSuitable: true,
       skinType: skinType
