@@ -11,7 +11,7 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
       icon: '✨',
       title: 'Full Face CO2 Laser',
       description: 'Most popular treatment for scars, texture & fine lines',
-      features: ['Acne scars & scarring', 'Fine lines & wrinkles', 'FREE PRP included', 'Complimentary consultation'],
+      features: ['Acne scars & scarring', 'Fine lines & wrinkles', 'Pigmentation & sun damage', 'FREE PRP included'],
       price: '£450',
       eyeAddon: true,
       gradient: 'from-primary-400 to-primary-600',
