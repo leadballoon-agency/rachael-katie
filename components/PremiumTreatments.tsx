@@ -23,7 +23,7 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
       title: 'Non-Surgical Blepharoplasty',
       description: 'Upper or lower eye rejuvenation',
       features: ['Heavy/hooded eyelids', 'Under-eye bags', 'Delicate eye area specialist', 'Not all clinics can offer this'],
-      price: '£100',
+      price: 'From £210',
       gradient: 'from-purple-400 to-purple-600',
       popular: false
     },
@@ -101,7 +101,7 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
                   {(treatment as any).eyeAddon && (
                     <div className="pb-4 space-y-1.5">
                       <div className="flex items-center justify-between text-xs sm:text-sm text-neutral-600">
-                        <span>+ Upper &amp;/or Lower Eye Rejuvenation</span>
+                        <span>+ Non-Surgical Blepharoplasty (Eyes) Upper or Lower</span>
                         <span className="font-semibold text-primary-600">£100</span>
                       </div>
                       <div className="flex items-center justify-between text-xs sm:text-sm text-neutral-600">
