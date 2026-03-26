@@ -121,9 +121,8 @@ export default function StructuredData() {
       "name": "Rachael Katie Cosmetics"
     },
     "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://co2lasersouthampton.co.uk/?s={search_term_string}",
-      "query-input": "required name=search_term_string"
+      "@type": "ReadAction",
+      "target": "https://co2lasersouthampton.co.uk"
     }
   }
 
