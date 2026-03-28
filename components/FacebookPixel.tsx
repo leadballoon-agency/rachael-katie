@@ -10,7 +10,7 @@ declare global {
   }
 }
 
-const FACEBOOK_PIXEL_ID = '1420040315939258'
+const FACEBOOK_PIXEL_ID = '546484859890307'
 
 export default function FacebookPixel() {
   const [loaded, setLoaded] = useState(false)
