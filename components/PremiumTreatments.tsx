@@ -19,21 +19,21 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
       badge: 'MOST POPULAR'
     },
     {
-      icon: '👁️',
-      title: 'Non-Surgical Blepharoplasty',
-      description: 'Upper or lower eye rejuvenation',
-      features: ['Heavy/hooded eyelids', 'Under-eye bags', 'Delicate eye area specialist', 'Not all clinics can offer this'],
-      price: 'From £210',
-      gradient: 'from-purple-400 to-purple-600',
+      icon: '💎',
+      title: 'Course of 3',
+      description: 'Save 20% on a course of treatments',
+      features: ['3 x full face sessions', '20% discount applied', 'Best for deeper concerns', 'Spaced for optimal results'],
+      price: '£840',
+      gradient: 'from-blue-400 to-cyan-600',
       popular: false
     },
     {
-      icon: '🎯',
-      title: 'Stretch Marks & Loose Skin',
-      description: 'Body areas & skin tightening',
-      features: ['Stretch marks reduction', 'Loose skin tightening', 'Body areas (10x10cm)', 'FREE PRP included'],
-      price: 'From £310',
-      gradient: 'from-blue-400 to-cyan-600',
+      icon: '🔥',
+      title: 'Fully Ablative',
+      description: 'Maximum intensity full face resurfacing',
+      features: ['Deepest level of resurfacing', 'Most dramatic results', 'Extended downtime required', 'Doctor-led throughout'],
+      price: '£695',
+      gradient: 'from-purple-400 to-purple-600',
       popular: false
     }
   ]
@@ -101,12 +101,8 @@ export default function PremiumTreatments({ onBookingClick }: PremiumTreatmentsP
                   {(treatment as any).eyeAddon && (
                     <div className="pb-4 space-y-1.5">
                       <div className="flex items-center justify-between text-xs sm:text-sm text-neutral-600">
-                        <span>+ Non-Surgical Blepharoplasty (Eyes) Upper or Lower</span>
+                        <span>+ Upper or Lower Eyes</span>
                         <span className="font-semibold text-primary-600">£100</span>
-                      </div>
-                      <div className="flex items-center justify-between text-xs sm:text-sm text-neutral-600">
-                        <span>+ Neck</span>
-                        <span className="font-semibold text-primary-600">£49</span>
                       </div>
                     </div>
                   )}
