@@ -7,8 +7,8 @@ import Link from 'next/link'
 // Configuration
 const CONFIG = {
   webhookUrl: 'https://services.leadconnectorhq.com/hooks/WWewzH8dif4Mq5vrRckC/webhook-trigger/83a010e3-ed7c-495c-ab98-8917c083b0fc',
-  bookingUrlSuitable: 'https://link.leadballoon.co.uk/widget/booking/Uqa1VlhX8D581YpoHg7k',
-  bookingUrlAlternative: 'https://link.leadballoon.co.uk/widget/booking/Uqa1VlhX8D581YpoHg7k',
+  bookingUrlSuitable: 'https://link.co2lasersouthampton.co.uk/widget/booking/qQ9svTvjacG6w3tWLAwB',
+  bookingUrlAlternative: 'https://link.co2lasersouthampton.co.uk/widget/booking/qQ9svTvjacG6w3tWLAwB',
   tagSuitable: 'CO2 Laser - Qualified',
   tagNotSuitable: 'CO2 Laser - Not Suitable',
 }

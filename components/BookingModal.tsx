@@ -19,7 +19,7 @@ export default function BookingModal({ isOpen, onClose, assessmentData }: Bookin
       const script = document.createElement('script')
       script.type = 'text/javascript'
       script.async = true
-      script.src = 'https://link.leadballoon.co.uk/js/form_embed.js'
+      script.src = 'https://link.co2lasersouthampton.co.uk/js/form_embed.js'
       document.body.appendChild(script)
 
       return () => {
@@ -84,7 +84,7 @@ export default function BookingModal({ isOpen, onClose, assessmentData }: Bookin
 
               <div className="bg-white rounded-2xl shadow-lg p-4 sm:p-6 min-h-[600px]">
                 <iframe
-                  src="https://link.leadballoon.co.uk/widget/booking/Uqa1VlhX8D581YpoHg7k"
+                  src="https://link.co2lasersouthampton.co.uk/widget/booking/qQ9svTvjacG6w3tWLAwB"
                   style={{
                     width: '100%',
                     minHeight: '700px',
